@@ -11,6 +11,7 @@ gem 'pg'
 gem 'rake'
 gem 'standalone_migrations'
 gem 'yaml'
+gem 'bootsnap'
 
 group :development do
   gem 'pry'
