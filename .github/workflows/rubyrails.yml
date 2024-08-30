@@ -30,6 +30,8 @@ jobs:
         run: bundle install
       ##- name: Run tests
       ##  run: bundle exec rake
+      - name: Permissions
+        run: "chmod a+x bin/rails"
       - name: List Files
         run: "ls -ltr bin/"
       - name: Initialize Server
